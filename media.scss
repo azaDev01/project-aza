@@ -1,0 +1,278 @@
+@media (max-width: 1401px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1281px) {
+  #steps {
+    .steps {
+      &--two {
+        &__image {
+          img {
+            margin-left: 415px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1201px) {
+  #services {
+    .block {
+      &--first {
+        margin: 0 6px;
+      }
+
+      &--second {
+        margin: 0 6px;
+      }
+
+      &--third {
+        margin: 06px;
+      }
+
+      &--fourth {
+        margin: 0 6px;
+      }
+    }
+  }
+
+  #steps {
+    .steps {
+      &--two {
+        &__image {
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1141px) {
+  #hero {
+    .hero {
+      p {
+        padding-bottom: 30px !important;
+      }
+    }
+  }
+
+  #steps {
+    .steps {
+      &--one {
+        zoom: 80%;
+      }
+
+      &--two {
+        &__comment {
+          margin-left: 390px !important;
+        }
+
+        &__comments {
+          margin-left: 390px !important;
+        }
+      }
+    }
+  }
+
+  #tourists {
+    .georges {
+      &--images {
+        &__img {
+          width: 90%;
+        }
+
+        &__circle {
+          margin-left: -50px !important;
+        }
+
+        &__union {
+          margin-left: -400px !important;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .contacts {
+      &--group {
+        &__company {
+          padding-left: 85px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  #hero {
+    .hero {
+      &--general {
+        h1 {
+          font-size: 40px !important;
+        }
+
+        &__group {
+          zoom: 90%;
+        }
+      }
+    }
+  }
+
+  #customer {
+    .customer {
+      img {
+        width: 40% !important;
+      }
+    }
+  }
+
+  #steps {
+    .steps {
+      &--two {
+        img {
+          width: 95%;
+        }
+
+        &__block {
+          display: none !important;
+        }
+
+        &__comment {
+          display: none !important;
+        }
+
+        &__comments {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  #tourists {
+    .georges {
+      &--images {
+        &__circle {
+          display: none;
+        }
+
+        &__union {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #touch {
+    .inputs {
+
+      img {
+        width: 60% !important;
+      }
+    }
+  }
+
+  #footer {
+    .footer {
+
+      &--inputs {
+        width: 680px !important;
+        height: 65px !important;
+      }
+    }
+
+    .contacts {
+      &--group {
+        &__company {
+          padding-left: 45px !important;
+        }
+
+        &__contact {
+          padding-left: 45px !important;
+        }
+      }
+    }
+
+    .line {
+      &--white {
+        width: 800px !important;
+      }
+
+      &--paragraph {
+        p {
+          font-size: 13px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 993px) {
+
+}
+
+@media (max-width: 913px) {
+  .hamburger-menu {
+    display: block;
+  }
+  #header {
+    .navbar {
+      &--nav {
+        display: none;
+      }
+    }
+  }
+  #services {
+    .block {
+      flex-wrap: wrap;
+    }
+  }
+
+  #trips {
+    .trips {
+      p {
+        width: 850px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 821px) {
+
+}
+
+@media (max-width: 769px) {
+
+}
+
+@media (max-width: 577px) {
+
+}
+
+@media (max-width: 541px) {
+
+}
+
+@media (max-width: 452px) {
+
+}
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 391px) {
+
+}
+
+@media (max-width: 376px) {
+
+}
+
+@media (max-width: 326px) {
+
+}
