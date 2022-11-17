@@ -16,14 +16,17 @@
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
+
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
@@ -56,6 +59,7 @@
     content: '';
     top: -8px;
   }
+
   .menu__btn > span::after {
     content: '';
     top: 8px;
@@ -87,9 +91,11 @@
     text-decoration: none;
     transition-duration: .25s;
   }
+
   .menu__item:hover {
     background-color: #CFD8DC;
   }
+
   .navbar {
     @include between();
 
